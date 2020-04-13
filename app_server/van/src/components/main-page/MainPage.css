@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-gap: .25em;
+    background-color: khaki;
+    
+    /* grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(12, 1fr); */
+
+    grid-template-rows: 4em auto 3em;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd hd hd hd"
+    "bd bd bd bd bd bd bd bd bd bd bd bd"
+    "ft ft ft ft ft ft ft ft ft ft ft ft"
+    ;
+
+}
+
+html, body {
+    margin: 0;
+}
+
+@media screen and (min-width: 916px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 915px) {
+    html, body {
+        font-size: 14px;
+    }
+}

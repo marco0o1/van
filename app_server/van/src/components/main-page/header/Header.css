@@ -1,0 +1,27 @@
+.header > div {
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+    margin: 0;
+}
+
+.header > div:nth-child(1) {
+    background-color: #96ceb4;
+}
+
+.header > div:nth-child(2) {
+    background-color:  #ff6f69;
+}
+
+.header > div:nth-child(3) {
+    background-color: #88d8d0;
+}
+
+.header {
+    grid-area: hd;
+    /* grid-column: 1 / -1;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

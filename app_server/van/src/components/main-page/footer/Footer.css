@@ -1,0 +1,25 @@
+
+.footer {
+    background-color: #273B47;
+    font-size: 1em;
+    padding: 1em;
+    margin: 0;
+    color: #ffeead;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > span:nth-child(1) {
+    display: flex;
+    
+}
+
+.footer > span:nth-child(2) {
+    display: flex;
+    margin-left: auto;
+}
+
